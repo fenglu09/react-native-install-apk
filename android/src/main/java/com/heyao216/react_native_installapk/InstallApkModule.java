@@ -86,7 +86,13 @@ public class InstallApkModule extends ReactContextBaseJavaModule implements Acti
     public void install_APK(Intent intent, String path) {
         try {
             intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-            Uri contentUri = FileProvider.getUriForFile(_context, "com.mglink.mgcircle", new File(path));
+            /** modify by david at 2019-8-6 start */
+            // authorities 更改为当前包名
+            String authorities = AppUtils.getAppProcessName(getReactApplicationContext());
+            // Uri contentUri = FileProvider.getUriForFile(_context, "com.mglink.mgcircle",
+            // new File(path));
+            Uri contentUri = FileProvider.getUriForFile(_context, authorities, new File(path));
+            /** modify by david at 2019-8-6 end */
             intent.setDataAndType(contentUri, "application/vnd.android.package-archive");
             _context.startActivity(intent);
         } catch (Exception e) {
