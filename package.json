@@ -1,51 +1,24 @@
 {
-  "_args": [
-    [
-      "git+https://github.com/flare216/react-native-install-apk.git",
-      "/Users/guozhan/Desktop/dev26"
-    ]
-  ],
-  "_from": "git+https://github.com/flare216/react-native-install-apk.git",
-  "_id": "react-native-install-apk@git+https://github.com/flare216/react-native-install-apk.git#c44d5c84ab901fd5e6fe1c4b12325719c424f216",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/react-native-install-apk",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "git+https://github.com/flare216/react-native-install-apk.git",
-    "rawSpec": "git+https://github.com/flare216/react-native-install-apk.git",
-    "saveSpec": "git+https://github.com/flare216/react-native-install-apk.git",
-    "fetchSpec": "https://github.com/flare216/react-native-install-apk.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/flare216/react-native-install-apk.git#c44d5c84ab901fd5e6fe1c4b12325719c424f216",
-  "_spec": "git+https://github.com/flare216/react-native-install-apk.git",
-  "_where": "/Users/guozhan/Desktop/dev26",
-  "author": {
-    "name": "flare216"
-  },
-  "bugs": {
-    "url": "https://github.com/flare216/react-native-install-apk/issues"
-  },
-  "description": "install .apk file ",
-  "homepage": "https://github.com/flare216/react-native-install-apk#readme",
-  "keywords": [
-    "install",
-    "apk"
-  ],
-  "license": "ISC",
-  "main": "index.js",
-  "name": "react-native-install-apk",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/flare216/react-native-install-apk.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.1"
-}
+    "name": "react-native-install-apk",
+    "version": "1.1",
+    "description": "Install APK File for Android",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:fenglu09/react-native-install-apk.git"
+    },
+    "keywords": [
+      "react",
+      "native",
+      "push",
+      "getui"
+    ],
+    "license": "ISC",
+    "dependencies": {},
+    "bugs": {
+      "url": "https://github.com/fenglu09/react-native-install-apk/issues"
+    },
+    "homepage": "https://github.com/fenglu09/react-native-install-apk#readme",
+    "peerDependencies": {}
+  }
