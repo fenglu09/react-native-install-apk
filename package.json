@@ -1,6 +1,6 @@
 {
     "name": "react-native-install-apk",
-    "version": "1.1",
+    "version": "1.1.1",
     "description": "Install APK File for Android",
     "main": "index.js",
     "scripts": {},
