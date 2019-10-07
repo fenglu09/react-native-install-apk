@@ -95,6 +95,8 @@ public class InstallApkModule extends ReactContextBaseJavaModule implements Acti
             Uri contentUri = FileProvider.getUriForFile(_context, authorities, new File(path));
             /** modify by david at 2019-8-6 end */
             intent.setDataAndType(contentUri, "application/vnd.android.package-archive");
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);//add by david android 9.0 更新问题
+
             _context.startActivity(intent);
         } catch (Exception e) {
             e.printStackTrace();
